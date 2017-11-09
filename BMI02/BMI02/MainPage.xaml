@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:BMI02"
              x:Class="BMI02.MainPage"
-             Title="BMI">
+             Title="BMI02">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="身長(cm)を入力してください"
