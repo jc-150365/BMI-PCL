@@ -16,11 +16,11 @@ namespace BMI02
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            double h = double.Parse(Hight.Text) / 100;
-            double w = double.Parse(Weight.Text);
+            double h = double.Parse(Hight.Text) / 100;//身長
+            double w = double.Parse(Weight.Text);//体重
             double bmi = 0.0;
 
-            bmi = w / (h * h);
+            bmi = w / (h * h);//BMI計算
 
             if (bmi < 18.5)
             {
