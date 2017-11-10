@@ -20,7 +20,7 @@ namespace BMI02
             double w = double.Parse(Weight.Text);//体重
             double bmi = 0.0;
 
-            bmi = w / (h * h);//BMI計算
+            bmi = w / (h * h);//BMIを計算
 
             if (bmi < 18.5)
             {
