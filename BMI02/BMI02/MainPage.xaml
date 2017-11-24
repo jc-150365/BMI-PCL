@@ -6,7 +6,9 @@
              Title="BMI02">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="身長(cm)を入力してください"
+            <Label Text="JK3A06 可士村">
+
+                <Label Text="身長(cm)を入力してください"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
